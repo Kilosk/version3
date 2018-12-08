@@ -1,0 +1,52 @@
+﻿.card{
+	background:#ccc;
+	padding: 8%;
+	border-radius:15%;
+	margin:10%;
+	margin-top: 6%;
+}
+
+body{
+	padding:0;
+	margin:0;
+}
+
+.text{
+	font-size:18px;
+	font-weight:bold;
+}
+
+.type{
+	margin-top:12%;
+	font-size:15px;
+	text-align: right;
+}
+
+.pic{
+	width:82%;
+	height:35%;
+	margin-bottom: 8%;
+	background-size:80%; 
+	background-position: center, center;
+	background-repeat: no-repeat;
+	background-image: url(p4.png);
+}
+
+.next{
+	position: absolute;
+    bottom: 0;
+	background:#ccc;
+	padding: 3%;
+	margin-left:-7%;
+	margin-right:-3%;
+	width:110%;
+	font-size:18px;
+	text-align:center;
+	user-select: none;
+}
+
+.next:active
+{
+	background:#999;
+
+}
